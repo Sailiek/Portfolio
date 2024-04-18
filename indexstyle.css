@@ -1,0 +1,58 @@
+@font-face {
+    font-family:'Philosopher';
+    src: url('polices/philosopher/Philosopher-Regular.ttf');
+}
+body {
+    color: tomato;
+    text-align: center;
+    font-family: 'Philosopher',Arial,sans-sertif;
+    background-color:#0b78e6 ;
+}
+
+.navbar {
+    width: 200px; 
+    height: 100vh; 
+    background-color: #2C3E50; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    font-size: larger;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    color: blueviolet;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+.navbar a:hover {
+    background-color: #D35400 ;
+}
+
+.navbar .sous-menu {
+    display: none;
+    background-color: #2C3E50;
+    padding: 0;
+    z-index: 1;
+}
+
+.navbar .sous-menu li {
+    float: none;
+}
+
+.navbar .sous-menu a {
+    color: blueviolet;
+    padding: 10px;
+    display: block;
+}
+
+.navbar .dropdown:hover .sous-menu {
+    display: block;
+}
