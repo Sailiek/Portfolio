@@ -1,27 +1,89 @@
+body{
+    height: 100vh;;
+}
 .nav2 {
-    text-align: center; 
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    
 }
 
 .nav2 ul {
-    list-style-type: none; 
-    margin: 0; 
-    padding: 0; 
+    display: flex;
+    list-style: none;
+}
+
+.nav2 ul li {
+    margin: 0 30px;
+}
+
+.nav2 ul li a {
+    color: #000;
+    font-weight: bold;
+}
+.nav2 a {
+    text-decoration: none;
+}
+.titre_formation{
+    font-weight: bold;
+    text-align: left;
+}
+ol{
+    list-style-type: none;
+}
+ol li{
+    text-align: left;
+}
+.date{
+    font-weight: bold;
+}
+ol a{
+    text-decoration: none;
+    color: red;
+}
+.skill{
+
+    flex: 1 1 calc(30% - 20px); /* 25% pour afficher 4 éléments par ligne avec un espacement de 20px entre eux */
+    margin: 10px;
+}
+.skill_description{
+    text-align: left;
+}
+.skill_logo{
+    height: 50px;
+    width: 50px;
+}
+.skill_title{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+#competences{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#loisirs img {
+    float: left; 
+    height: 200px;
+    width: 200px;
+    margin-right: 20px; 
+}
+
+.loisirs_description {
     overflow: hidden; 
+    width: calc(100% - 220px); 
 }
-
-.nav2 li {
-    display: inline-block; 
-    margin-right: 100px;
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-
-.nav2 li:last-child {
-    margin-right: 0; 
+.button:hover {
+    background-color: #0056b3;
 }
-
-.nav2 li a {
-    display: block; 
-    color: #333; 
-    text-align: center; 
-    text-decoration: none; 
-}
-
