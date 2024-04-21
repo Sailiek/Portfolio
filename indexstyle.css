@@ -2,6 +2,9 @@ body {
     text-align: center;
     font-family: 'Philosopher', Arial, sans-serif;
     background-color: #f0f0f0; 
+    margin-left: 200px;
+    height: 80vh;
+    padding: 50px;
 }
 
 .navbar {
@@ -47,4 +50,8 @@ body {
 .navbar .dropdown:hover .sous-menu {
     display: block;
 }
-
+#photo_acceuil{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
